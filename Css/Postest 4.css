@@ -1,0 +1,273 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(background-academy.jpg);
+	background-size: cover;
+}
+
+.container .header{
+	width: 100%;
+	height: 25%;
+	background-image: url(Header-academy2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.menu{
+	font-family:tahoma;
+	font-weight:bold;
+	height: 70px;
+	width: 100%;
+	background:black;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+label{
+	font-family: tahoma;
+	font-size: 20pt;
+	color: white;
+	margin: 10px;
+	padding: 5px;
+	float: left;
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 5px;
+	background: none;
+	display: block;
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	color: #ddd;
+}
+
+.menu ul li a:hover{
+	display: block;
+	color: orange;
+	background: #222;
+	box-shadow: inset 0px 0px 5px #000;
+}
+
+.menu ul li .dropdown{
+	display: none;
+}
+
+.menu ul li:hover .dropdown{
+	display: block;
+	background: black;
+	position: absolute;
+	padding: 10px;
+}
+
+.container{
+	width: 100%;
+	height: 700px;
+	margin: 0 auto;
+}
+
+.container .left{
+	float: left;
+	width: 50%;
+	height: 700px;
+	box-sizing: border-box;
+}
+
+.container .right{
+	float: right;
+	width: 50%;
+	height: 850px;
+	box-sizing: border-box;
+	background: #fafafa;
+}
+
+.formBox{
+	width: 100%;
+	height: 650px;
+	box-sizing: border-box;
+}
+
+.container .left img{
+	width: 300px;
+    height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.container .left h1, .left p{
+	text-align: center;
+}
+
+.formBox .nama{
+	padding-top: 90px;
+	padding-left: 40px;
+}
+
+.formBox .nama img{
+	position:absolute;
+	width: 14px;
+	height: 14px;
+	margin-top: 14px;
+	margin-left: 11px;
+}
+
+.formBox .nama input{
+	padding-left: 35px;
+	width: 570px;
+	height: 40px;
+}
+
+input::-webkit-input-placeholder{
+	color: #323232;
+	font-weight: 600;
+}
+
+.formBox .alamat{
+	padding-top: 10px;
+	padding-left: 40px;
+}
+
+.formBox .alamat input{
+	padding-left: 35px;
+	width: 570px;
+	height: 40px;
+}
+
+.formBox .alamat img{
+	position:absolute;
+	width: 14px;
+	height: 14px;
+	margin-top: 14px;
+	margin-left: 11px;
+}
+
+.formBox .nomor{
+	padding-top: 10px;
+	padding-left: 40px;
+}
+
+.formBox .nomor input{
+	padding-left: 35px;
+	width: 570px;
+	height: 40px;
+}
+
+.formBox .nomor img{
+	position:absolute;
+	width: 14px;
+	height: 14px;
+	margin-top: 14px;
+	margin-left: 11px;
+}
+
+.formBox .jk{
+	padding-top: 10px;
+}
+
+.formBox .jk p{
+	padding-left: 75px;
+}
+
+.formBox .jk img{
+	position:absolute;
+	width: 16px;
+	height: 16px;
+	margin-top: 18px;
+	margin-left: 50px;
+}
+
+.formBox .jk input{
+	margin-left: 50px;
+}
+
+.formBox .agama{
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.formBox .agama select{
+	border: 1px solid #8a92c0;
+	border-radius: 5px;
+	padding-left: 10px;
+	width: 607px;
+	height: 35px;
+}
+
+.formbox .agama img{
+    position:absolute;
+	width: 10px;
+	height: 10px;
+	margin-top: 18px;
+	margin-left: 30px;
+}
+
+.formBox .prestasi{
+	padding-top: 10px;
+}
+
+.formBox .prestasi p{
+	padding-left: 75px;
+}
+
+.formBox .prestasi img{
+	position:absolute;
+	width: 20px;
+	height: 20px;
+	margin-top: 18px;
+	margin-left: 50px;
+}
+
+.formBox .prestasi textarea{
+	border: 1px solid #8a92c0;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-left: 40px;
+	width: 592px;
+	height: 80px;
+}
+
+textarea::-webkit-input-placeholder{
+	color: #323232;
+	font-family: nunito;
+	font-weight: 600;
+	padding: 5px;
+}
+
+.formBox .button{
+	padding-top: 20px;
+}
+
+.formBox .button #pertama{
+	margin-left: 40px;
+	width: 295px;
+	height: 40px;
+	background: #0e4bef;
+	color: #fff;
+	border: none;
+}
+
+.formBox .button #kedua{
+	margin-left: 10px;
+	width: 295px;
+	height: 40px;
+	background: #e71837;
+	color: #fff;
+	border: none;
+}
+
+input{
+	border: 1px solid #8a92c0;
+	border-radius: 5px;
+}
